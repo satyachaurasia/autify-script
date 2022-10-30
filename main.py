@@ -77,3 +77,4 @@ if __name__ == "__main__":
                 file.write(soup.prettify('utf-8'))
             print(f"URL {url} fetched successfully\n")
    
+
