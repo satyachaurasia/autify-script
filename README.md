@@ -22,7 +22,7 @@ After running the above command, you can run the main script by passing required
 python3 main.py https://www.google.com https://autify.com 
 ```
 
-To get the metadata of the files we can can pass optional parameter `-m` or `--metadata` with the above command. 
+To get the metadata of the files we can can pass optional parameter `-m` or `--metadata` with the above command. This command will only show metadata for the urls whose html files are present on the disk. So run the above command first, then this. 
 
 ```sh
 python3 main.py -m https://www.google.com https://autify.com
